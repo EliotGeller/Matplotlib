@@ -12,3 +12,5 @@ StackPlots.py tested the different baselines and weights in a stack plot of 4 da
 PieCharts.py tested the included .pie parameters included in pyplot, such as colors, exploding, and rotation of a pie chart.
 
 BoxAndWhisker.py was to learn about the caps, fliers, positions, etc. of a box and whisker plot created with pyplot.
+
+FiguresAndSubplots.py expanded on BoxAndWhisker.py by adding extra subplots and figures to the existing code.
