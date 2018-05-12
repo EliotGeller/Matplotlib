@@ -14,3 +14,5 @@ PieCharts.py tested the included .pie parameters included in pyplot, such as col
 BoxAndWhisker.py was to learn about the caps, fliers, positions, etc. of a box and whisker plot created with pyplot.
 
 FiguresAndSubplots.py expanded on BoxAndWhisker.py by adding extra subplots and figures to the existing code.
+
+FinanceGraph.py used the seperately installed mpl_finance module that replaces the now deprecated matplotlib.finance library.  This code creates a candlestick graph from data parsed from a Yahoo finance csv file (AAPL.csv)
