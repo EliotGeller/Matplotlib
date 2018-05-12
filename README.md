@@ -10,3 +10,5 @@ BarPlots.py is my third matplotlib file.  This went over similar method paramete
 StackPlots.py tested the different baselines and weights in a stack plot of 4 data sets of random numbers.
 
 PieCharts.py tested the included .pie parameters included in pyplot, such as colors, exploding, and rotation of a pie chart.
+
+BoxAndWhisker.py was to learn about the caps, fliers, positions, etc. of a box and whisker plot created with pyplot.
