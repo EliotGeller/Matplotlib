@@ -59,8 +59,33 @@ ax.xaxis.set_major_locator(DayLocator(1))
 ax.xaxis.set_major_formatter(DateFormatter("%Y-%m-%d"))
 ax.xaxis.set_minor_locator(DayLocator(range(1,32,7)))
 ax.xaxis_date()
+ax.grid(b = "on", which = "major", axis = "both", alpha = 0.2,
+        color = "black", ls = ":") #, marker = "^", ms = 10)
 
+majorTicks = ax.get_xmajorticklabels()
+minorTicks = ax.get_xminorticklabels()
+ticks = ax.get_xticklabels(which = "both")
+for currentTick in majorTicks:
+    currentTick.set_color("red")
+    currentTick.set_fontsize(12)
+    currentTick.set_weight(0)
 for tick in ax.xaxis.get_ticklabels():
     tick.set_rotation(45)
+    
+tickLines = ax.get_xticklines()
+gridLines = ax.get_xgridlines()
+color = ["red","blue"]
+counter = 0
+for gridLine in gridLines:
+    gridLine.set_linewidth(1)
+    gridLine.set_linestyle("--")
+    gridLine.set_color(color[counter])
+    gridLine.set_marker("^")
+    gridLine.set_markersize(20)
+    
+    if counter == 0:
+        counter = 1
+    else:
+        counter = 0
 plt.show()
 
