@@ -18,3 +18,5 @@ FiguresAndSubplots.py expanded on BoxAndWhisker.py by adding extra subplots and 
 FinanceGraph.py used the seperately installed mpl_finance module that replaces the now deprecated matplotlib.finance library.  This code creates a candlestick graph from data parsed from a Yahoo finance csv file (AAPL.csv)
 
 LiveGraph.py utilizes the FuncAnimation module from the matplotlib.animations to demonstrate an animated graph over time.
+
+Styling.py used a simple linear graph to explore the different options included in matplotlib.style, matplotlib.rcParams, and the pyplot.xkcd style.
