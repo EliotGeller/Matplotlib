@@ -22,3 +22,5 @@ LiveGraph.py utilizes the FuncAnimation module from the matplotlib.animations to
 Styling.py used a simple linear graph to explore the different options included in matplotlib.style, matplotlib.rcParams, and the pyplot.xkcd style.
 
 AxisSharing.py uses the twinx method to share the X-axis for 2 graphs on the same plot.
+
+Spines.py used the built in .spines methods to manipulate how spines are visualized in graphs.
