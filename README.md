@@ -26,3 +26,5 @@ AxisSharing.py uses the twinx method to share the X-axis for 2 graphs on the sam
 Spines.py used the built in .spines methods to manipulate how spines are visualized in graphs.
 
 MultipleAxes.py uses the mpl_toolkits.axes_grid1 library to create multiple graphs on a single plot.  This specific example has a 2d histogram along with 2 bar-graphs and a scatter plot do show randomly created data.
+
+First3D.py was my first look at 3D plotting using Axes3D from the mpl_toolkits.mplot3d library.
