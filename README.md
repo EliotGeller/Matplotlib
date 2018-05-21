@@ -29,4 +29,6 @@ MultipleAxes.py uses the mpl_toolkits.axes_grid1 library to create multiple grap
 
 First3D.py was my first look at 3D plotting using Axes3D from the mpl_toolkits.mplot3d library.
 
+Surface.py is a very basic surface plot that also has options to change the colormap.
+
 Wireframes.py plots three different graphs of wireframe graphs, and contour plots in addition to exploring how offsetting contour plots in a single subplot can give different visualizations.
