@@ -32,3 +32,5 @@ First3D.py was my first look at 3D plotting using Axes3D from the mpl_toolkits.m
 Surface.py is a very basic surface plot that also has options to change the colormap.
 
 Wireframes.py plots three different graphs of wireframe graphs, and contour plots in addition to exploring how offsetting contour plots in a single subplot can give different visualizations.
+
+HistoStack.py uses the mplot3d library to stack multiple histograms into one plot for data comparison.
